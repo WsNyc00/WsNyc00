@@ -2,7 +2,6 @@
 ! Description: Brings back 5 videos per row and 9 videos per row in home page
 ! Homepage: https://github.com/WsNyc00/WsNyc00
 
-
 ! YT 5 rows videos
 youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 5 !important;)

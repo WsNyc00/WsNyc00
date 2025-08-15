@@ -1,0 +1,11 @@
+! YouTube Fix & Customization by Arch v1.8.5
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 5 !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 5 !important;)
+! YT Shorts 9 rows
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-slim-items-per-row: 9 !important;)
+youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-grid-items-per-row: 9 !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-game-cards-per-row: 9 !important;)
+youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-shelf-items-count: 9 !important;)
+youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
+youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)

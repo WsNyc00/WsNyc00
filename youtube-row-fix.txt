@@ -13,3 +13,5 @@ youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-game-cards-per-r
 youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-shelf-items-count: 9 !important;)
 youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
 youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
+! (6/11) YouTube Horizontal Scrollbar Fix / YouTube Fix & Customization
+youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)

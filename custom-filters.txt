@@ -1,4 +1,5 @@
 ! Title: WsNyc Custom filters
+! Description: My Custom filters for uBO, this just a backup in case i lose actual file
 
 adblock.turtlecute.org##.adbox.banner_ads.adsbox
 adblock.turtlecute.org##.textads
@@ -30,3 +31,4 @@ youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
 youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
 ! YouTube Horizontal Scrollbar Fix
 youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
+

@@ -1,6 +1,6 @@
 ! Title: YouTube Fix & Customization by Arch v1.8.5
 ! Description: Brings back 5 videos per row and 9 shorts videos per row in home page
-! Homepage: https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row/
+! Homepage: https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row
 
 ! (1/11) YouTube 4 Videos Per Row Fix (Home and Channel Pages) / YouTube Fix & Customization
 youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)

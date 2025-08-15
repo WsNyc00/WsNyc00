@@ -1,17 +1,1 @@
-! Title: YouTube Fix & Customization by Arch v1.8.5
-! Description: Brings back 5 videos per row and 9 shorts videos per row in home page
-! Homepage: https://www.reddit.com/r/youtube/comments/1b40hra/youtube_fix_customizations_4_videos_per_row/
-
-! (1/11) YouTube 4 Videos Per Row Fix (Home and Channel Pages) / YouTube Fix & Customization
-youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
-youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 5 !important;)
-youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 5 !important;)
-! (2/11) YouTube Home Short Section 7 Videos Per Row Fix / YouTube Fix & Customization
-youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-slim-items-per-row: 9 !important;)
-youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-grid-items-per-row: 9 !important;)
-youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-game-cards-per-row: 9 !important;)
-youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-shelf-items-count: 9 !important;)
-youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
-youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
-! (6/11) YouTube Horizontal Scrollbar Fix / YouTube Fix & Customization
-youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
+asd

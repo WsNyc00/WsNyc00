@@ -1,0 +1,32 @@
+! Title: WsNyc Custom filters
+
+adblock.turtlecute.org##.adbox.banner_ads.adsbox
+adblock.turtlecute.org##.textads
+/pagead.js$domain=adblock.turtlecute.org
+/widget/ads.
+
+127.0.0.1 accounts.youtube.com
+127.0.0.1 atstop.rtk.lt
+! No twitch stories
+twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
+twitch.tv##.lcFJxY.Layout-sc-1xcs6mc-0
+# twitch.tv##.front-page-carousel:remove()
+# 127.0.0.1 suggestqueries-clients6.youtube.com
+# 127.0.0.1 ogs.google.com
+f95zone.to###topNotice
+# go3.lt##.c-section-hero-multiple.c-section
+# youtube.com##+js(ytstayactive)
+# lnk.lt##app-scrollable-live-player
+! YouTube Fix & Customization by Arch v1.8.5
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 5 !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 5 !important;)
+! YouTube Shorts 9 rows
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-slim-items-per-row: 9 !important;)
+youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-grid-items-per-row: 9 !important;)
+youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-game-cards-per-row: 9 !important;)
+youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-shelf-items-count: 9 !important;)
+youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
+youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
+! YouTube Horizontal Scrollbar Fix
+youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)

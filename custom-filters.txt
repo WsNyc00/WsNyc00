@@ -1,13 +1,12 @@
-! Title: WsNyc Custom filters
-! Description: My Custom filters for uBO, this just a backup in case i lose actual file
-
 adblock.turtlecute.org##.adbox.banner_ads.adsbox
 adblock.turtlecute.org##.textads
 /pagead.js$domain=adblock.turtlecute.org
 /widget/ads.
 
+# ||accounts.youtube.com^
 127.0.0.1 accounts.youtube.com
 127.0.0.1 atstop.rtk.lt
+
 ! No twitch stories
 twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
 twitch.tv##.lcFJxY.Layout-sc-1xcs6mc-0
@@ -31,4 +30,3 @@ youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
 youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
 ! YouTube Horizontal Scrollbar Fix
 youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
-

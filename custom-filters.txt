@@ -30,3 +30,6 @@ youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
 youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
 ! YouTube Horizontal Scrollbar Fix
 youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
+! YT view count
+!||youtube.com/api/stats/atr?ns=
+||youtube.com/api/stats/qoe?fmt=

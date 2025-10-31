@@ -1,3 +1,6 @@
+! Title: WsNyc00 Filter
+! Description: My custom filter for Brave/uBO
+
 adblock.turtlecute.org##.adbox.banner_ads.adsbox
 adblock.turtlecute.org##.textads
 /pagead.js$domain=adblock.turtlecute.org
@@ -33,3 +36,4 @@ youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
 ! YT view count
 !||youtube.com/api/stats/atr?ns=
 ||youtube.com/api/stats/qoe?fmt=
+

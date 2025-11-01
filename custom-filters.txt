@@ -37,3 +37,6 @@ youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
 !||youtube.com/api/stats/atr?ns=
 ||youtube.com/api/stats/qoe?fmt=
 
+! Red progress bar for YT
+www.youtube-nocookie.com,www.youtube.com##:root:style(--yt-spec-static-brand-red: #f00 !important;)
+www.youtube-nocookie.com,www.youtube.com##.ytp-play-progress.ytp-swatch-background-color:style( background: #f00 !important; )

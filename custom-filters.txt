@@ -6,9 +6,10 @@ adblock.turtlecute.org##.textads
 /pagead.js$domain=adblock.turtlecute.org
 /widget/ads.
 
-# ||accounts.youtube.com^
-127.0.0.1 accounts.youtube.com
-127.0.0.1 atstop.rtk.lt
+||accounts.youtube.com^
+||atstop.rtk.lt^
+# 127.0.0.1 accounts.youtube.com
+# 127.0.0.1 atstop.rtk.lt
 
 ! No twitch stories
 twitch.tv##.storiesLeftNavSection--csO9S.dcyYPL.Layout-sc-1xcs6mc-0
@@ -40,4 +41,5 @@ youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
 ! Red progress bar for YT
 # www.youtube-nocookie.com,www.youtube.com##:root:style(--yt-spec-static-brand-red: #f00 !important;)
 # www.youtube-nocookie.com,www.youtube.com##.ytp-play-progress.ytp-swatch-background-color:style( background: #f00 !important; )
+
 

@@ -32,11 +32,12 @@ youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-game-cards-per-r
 youtube.com##ytd-rich-shelf-renderer, html:style(--ytd-rich-shelf-items-count: 9 !important;)
 youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
 youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
-! YouTube Horizontal Scrollbar Fix
+! YouTube Horizontal Scrollbar Fix and Experiencing interruptions popup
 youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
+youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button
 ! YT view count
 !||youtube.com/api/stats/atr?ns=
-||youtube.com/api/stats/qoe?fmt=
+!||youtube.com/api/stats/qoe?fmt=
 
 ! Red progress bar for YT
 # www.youtube-nocookie.com,www.youtube.com##:root:style(--yt-spec-static-brand-red: #f00 !important;)

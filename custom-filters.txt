@@ -35,9 +35,13 @@ youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
 ! YouTube Horizontal Scrollbar Fix and Experiencing interruptions popup
 youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
 youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button
+! Youtube fix for right sidebar's size thumbnails
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_secondary_max_width, 402)
+www.youtube.com###related a:is(.yt-lockup-view-model__content-image,.ytLockupViewModelContentImage), #related ytd-thumbnail:style( width: 170px !important; )
 ! YT view count
 !||youtube.com/api/stats/atr?ns=
 !||youtube.com/api/stats/qoe?fmt=
+!||youtube.com/ptracking?html5=1&
 
 ! Red progress bar for YT
 # www.youtube-nocookie.com,www.youtube.com##:root:style(--yt-spec-static-brand-red: #f00 !important;)

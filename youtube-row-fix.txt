@@ -15,3 +15,6 @@ youtube.com##+js(set-attr, ytd-rich-shelf-renderer, is-show-more-hidden)
 youtube.com##+js(ra, hidden, ytd-rich-item-renderer, stay)
 ! (6/11) YouTube Horizontal Scrollbar Fix / YouTube Fix & Customization
 youtube.com##body, ytd-app[scrolling]:style(overflow-x: hidden !important;)
+! Youtube fix for right sidebar's size
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_secondary_max_width, 402)
+www.youtube.com###related a:is(.yt-lockup-view-model__content-image,.ytLockupViewModelContentImage), #related ytd-thumbnail:style( width: 170px !important; )

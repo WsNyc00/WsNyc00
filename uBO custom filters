@@ -15,7 +15,7 @@ twitch.tv##.storiesLeftNavSection--csO9S.iGMbNn.Layout-sc-1xcs6mc-0
 # 127.0.0.1 suggestqueries-clients6.youtube.com
 # 127.0.0.1 ogs.google.com
 # f95zone.to###topNotice
-f95zone.to###tn7k9m2x
+f95zone.to###bisnre09
 # go3.lt##.c-section-hero-multiple.c-section
 # lnk.lt##app-scrollable-live-player
 ! YouTube Fix & Customization by Arch v1.8.5
@@ -35,6 +35,3 @@ youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast
 ! Youtube fix for right sidebar's size
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_secondary_max_width, 402)
 www.youtube.com###related a:is(.yt-lockup-view-model__content-image,.ytLockupViewModelContentImage), #related ytd-thumbnail:style( width: 170px !important; )
-!||youtube.com/api/stats/atr?ns=
-!||youtube.com/api/stats/qoe?fmt=
-!||youtube.com/ptracking?html5=1&
